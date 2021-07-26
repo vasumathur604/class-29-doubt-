@@ -23,7 +23,7 @@ function setup() {
   
   ground = new Ground();
   stand1 = new Stand(390,300,250,10);
-  stand2 = new Stand(687,200,250,10);
+  stand2 = new Stand(697,200,250,10);
 
   hexagon=Bodies.circle(50,200,20)
   World.add(world,hexagon)
@@ -118,8 +118,7 @@ function draw() {
   block31.display();
   fill("yellow")
   block32.display();
-
-  hexagon.display();
+hexagon.display();
   
 
   imageMode(CENTER)
